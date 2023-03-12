@@ -17,7 +17,7 @@ protocol DIInjector {
 struct RepositoryInjector: DIInjector {
     func register() {
         DIContainer.register(WeatherRepository.self) {
-            WeatherRepositoryFactory.make()
+            WeatherRepositoryFactory.mock()
         }
     }
 }
