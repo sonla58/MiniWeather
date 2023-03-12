@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC01229029BCFE1D00A20C6F /* DependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01228F29BCFE1D00A20C6F /* DependencyProvider.swift */; };
+		AC01229329BE40E400A20C6F /* RepositoryInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01229229BE40E400A20C6F /* RepositoryInjector.swift */; };
+		AC01229529BE412B00A20C6F /* DI in Frameworks */ = {isa = PBXBuildFile; productRef = AC01229429BE412B00A20C6F /* DI */; };
 		ACB5F38729BB8A45005D76A2 /* MiniWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5F38629BB8A45005D76A2 /* MiniWeatherApp.swift */; };
-		ACB5F38929BB8A45005D76A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5F38829BB8A45005D76A2 /* ContentView.swift */; };
 		ACB5F38B29BB8A45005D76A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB5F38A29BB8A45005D76A2 /* Assets.xcassets */; };
-		ACB5F38E29BB8A45005D76A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB5F38D29BB8A45005D76A2 /* Preview Assets.xcassets */; };
 		ACB5F39829BB8A45005D76A2 /* MiniWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5F39729BB8A45005D76A2 /* MiniWeatherTests.swift */; };
 		ACB5F3A229BB8A45005D76A2 /* MiniWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5F3A129BB8A45005D76A2 /* MiniWeatherUITests.swift */; };
 		ACB5F3A429BB8A45005D76A2 /* MiniWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5F3A329BB8A45005D76A2 /* MiniWeatherUITestsLaunchTests.swift */; };
+		ACB5F3B929BB9DDA005D76A2 /* WeatherRepository in Frameworks */ = {isa = PBXBuildFile; productRef = ACB5F3B829BB9DDA005D76A2 /* WeatherRepository */; };
+		ACB5F3BB29BBA5A6005D76A2 /* Model in Frameworks */ = {isa = PBXBuildFile; productRef = ACB5F3BA29BBA5A6005D76A2 /* Model */; };
+		ACBEB50429BBB67C00038E36 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEB50329BBB67C00038E36 /* DashboardView.swift */; };
+		ACBEB50629BBB6F700038E36 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEB50529BBB6F700038E36 /* DashboardViewModel.swift */; };
+		ACBEB50C29BC3E3800038E36 /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = ACBEB50B29BC3E3800038E36 /* UI */; };
+		ACBEB50E29BC7D9300038E36 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEB50D29BC7D9300038E36 /* AppRouter.swift */; };
+		ACBEB51129BC7FB600038E36 /* CoreFeature in Frameworks */ = {isa = PBXBuildFile; productRef = ACBEB51029BC7FB600038E36 /* CoreFeature */; };
+		ACBEB51329BCE9D700038E36 /* DayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEB51229BCE9D700038E36 /* DayForecastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC01228F29BCFE1D00A20C6F /* DependencyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyProvider.swift; sourceTree = "<group>"; };
+		AC01229129BE3FE700A20C6F /* DI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DI; sourceTree = "<group>"; };
+		AC01229229BE40E400A20C6F /* RepositoryInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryInjector.swift; sourceTree = "<group>"; };
 		ACB5F38329BB8A45005D76A2 /* MiniWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5F38629BB8A45005D76A2 /* MiniWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherApp.swift; sourceTree = "<group>"; };
-		ACB5F38829BB8A45005D76A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACB5F38A29BB8A45005D76A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACB5F38D29BB8A45005D76A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACB5F39329BB8A45005D76A2 /* MiniWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5F39729BB8A45005D76A2 /* MiniWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherTests.swift; sourceTree = "<group>"; };
 		ACB5F39D29BB8A45005D76A2 /* MiniWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5F3A129BB8A45005D76A2 /* MiniWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherUITests.swift; sourceTree = "<group>"; };
 		ACB5F3A329BB8A45005D76A2 /* MiniWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACB5F3B029BB8EC5005D76A2 /* MiniWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniWeather.entitlements; sourceTree = "<group>"; };
+		ACB5F3B229BB9AC7005D76A2 /* Model */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Model; sourceTree = "<group>"; };
+		ACB5F3B429BB9DBA005D76A2 /* WeatherRepository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WeatherRepository; sourceTree = "<group>"; };
+		ACBEB50329BBB67C00038E36 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		ACBEB50529BBB6F700038E36 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		ACBEB50A29BC36D500038E36 /* UI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UI; sourceTree = "<group>"; };
+		ACBEB50D29BC7D9300038E36 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		ACBEB50F29BC7E6200038E36 /* CoreFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreFeature; sourceTree = "<group>"; };
+		ACBEB51229BCE9D700038E36 /* DayForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC01229529BE412B00A20C6F /* DI in Frameworks */,
+				ACBEB51129BC7FB600038E36 /* CoreFeature in Frameworks */,
+				ACB5F3BB29BBA5A6005D76A2 /* Model in Frameworks */,
+				ACBEB50C29BC3E3800038E36 /* UI in Frameworks */,
+				ACB5F3B929BB9DDA005D76A2 /* WeatherRepository in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +98,13 @@
 		ACB5F37A29BB8A44005D76A2 = {
 			isa = PBXGroup;
 			children = (
+				ACB5F3B329BB9D96005D76A2 /* Repositories */,
+				ACB5F3B129BB9AA8005D76A2 /* Packages */,
 				ACB5F38529BB8A45005D76A2 /* MiniWeather */,
 				ACB5F39629BB8A45005D76A2 /* MiniWeatherTests */,
 				ACB5F3A029BB8A45005D76A2 /* MiniWeatherUITests */,
 				ACB5F38429BB8A45005D76A2 /* Products */,
+				ACB5F3B529BB9DDA005D76A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,20 +121,12 @@
 		ACB5F38529BB8A45005D76A2 /* MiniWeather */ = {
 			isa = PBXGroup;
 			children = (
-				ACB5F38629BB8A45005D76A2 /* MiniWeatherApp.swift */,
-				ACB5F38829BB8A45005D76A2 /* ContentView.swift */,
-				ACB5F38A29BB8A45005D76A2 /* Assets.xcassets */,
-				ACB5F38C29BB8A45005D76A2 /* Preview Content */,
+				ACBEB50929BC333600038E36 /* Resource */,
+				ACBEB50829BC332A00038E36 /* SupportFiles */,
+				ACBEB50729BC331D00038E36 /* App */,
+				ACBEB50029BBB61900038E36 /* Features */,
 			);
 			path = MiniWeather;
-			sourceTree = "<group>";
-		};
-		ACB5F38C29BB8A45005D76A2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				ACB5F38D29BB8A45005D76A2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		ACB5F39629BB8A45005D76A2 /* MiniWeatherTests */ = {
@@ -127,6 +146,85 @@
 			path = MiniWeatherUITests;
 			sourceTree = "<group>";
 		};
+		ACB5F3B129BB9AA8005D76A2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AC01229129BE3FE700A20C6F /* DI */,
+				ACBEB50F29BC7E6200038E36 /* CoreFeature */,
+				ACBEB50A29BC36D500038E36 /* UI */,
+				ACB5F3B229BB9AC7005D76A2 /* Model */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		ACB5F3B329BB9D96005D76A2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5F3B429BB9DBA005D76A2 /* WeatherRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ACB5F3B529BB9DDA005D76A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBEB50029BBB61900038E36 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEB50229BBB64700038E36 /* DayForecast */,
+				ACBEB50129BBB63F00038E36 /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		ACBEB50129BBB63F00038E36 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEB50329BBB67C00038E36 /* DashboardView.swift */,
+				ACBEB50529BBB6F700038E36 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		ACBEB50229BBB64700038E36 /* DayForecast */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEB51229BCE9D700038E36 /* DayForecastView.swift */,
+			);
+			path = DayForecast;
+			sourceTree = "<group>";
+		};
+		ACBEB50729BC331D00038E36 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5F38629BB8A45005D76A2 /* MiniWeatherApp.swift */,
+				ACBEB50D29BC7D9300038E36 /* AppRouter.swift */,
+				AC01228F29BCFE1D00A20C6F /* DependencyProvider.swift */,
+				AC01229229BE40E400A20C6F /* RepositoryInjector.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ACBEB50829BC332A00038E36 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5F3B029BB8EC5005D76A2 /* MiniWeather.entitlements */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		ACBEB50929BC333600038E36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5F38A29BB8A45005D76A2 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +241,13 @@
 			dependencies = (
 			);
 			name = MiniWeather;
+			packageProductDependencies = (
+				ACB5F3B829BB9DDA005D76A2 /* WeatherRepository */,
+				ACB5F3BA29BBA5A6005D76A2 /* Model */,
+				ACBEB50B29BC3E3800038E36 /* UI */,
+				ACBEB51029BC7FB600038E36 /* CoreFeature */,
+				AC01229429BE412B00A20C6F /* DI */,
+			);
 			productName = MiniWeather;
 			productReference = ACB5F38329BB8A45005D76A2 /* MiniWeather.app */;
 			productType = "com.apple.product-type.application";
@@ -231,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB5F38E29BB8A45005D76A2 /* Preview Assets.xcassets in Resources */,
 				ACB5F38B29BB8A45005D76A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +361,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB5F38929BB8A45005D76A2 /* ContentView.swift in Sources */,
+				AC01229329BE40E400A20C6F /* RepositoryInjector.swift in Sources */,
+				ACBEB50E29BC7D9300038E36 /* AppRouter.swift in Sources */,
+				ACBEB50629BBB6F700038E36 /* DashboardViewModel.swift in Sources */,
+				ACBEB51329BCE9D700038E36 /* DayForecastView.swift in Sources */,
+				AC01229029BCFE1D00A20C6F /* DependencyProvider.swift in Sources */,
+				ACBEB50429BBB67C00038E36 /* DashboardView.swift in Sources */,
 				ACB5F38729BB8A45005D76A2 /* MiniWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,10 +523,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MiniWeather/SupportFiles/MiniWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = TK6T4KEN3N;
+				DEVELOPMENT_TEAM = M54TSZC4E5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamlas.MiniWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.wea1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,10 +553,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MiniWeather/SupportFiles/MiniWeather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = TK6T4KEN3N;
+				DEVELOPMENT_TEAM = M54TSZC4E5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamlas.MiniWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.wea1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,6 +694,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC01229429BE412B00A20C6F /* DI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DI;
+		};
+		ACB5F3B829BB9DDA005D76A2 /* WeatherRepository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WeatherRepository;
+		};
+		ACB5F3BA29BBA5A6005D76A2 /* Model */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model;
+		};
+		ACBEB50B29BC3E3800038E36 /* UI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UI;
+		};
+		ACBEB51029BC7FB600038E36 /* CoreFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACB5F37B29BB8A44005D76A2 /* Project object */;
 }
