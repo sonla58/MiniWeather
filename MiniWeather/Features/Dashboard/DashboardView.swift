@@ -42,7 +42,7 @@ struct DashboardView: View {
             }
         }
         .navigationBarTitleDisplayMode(.large)
-        .navigationTitle("Today")
+        .navigationTitle("10 days forecast")
         .task {
             viewModel.fetchData()
         }

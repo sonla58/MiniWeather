@@ -20,7 +20,7 @@ public struct TemperatureRangeBar: View {
     public var body: some View {
         HStack(alignment: .center) {
             // MARK: - Lowest label
-            Text("\(innerTemperatureRange.lowerBound.rounded().formatted())")
+            Text("\(innerTemperatureRange.lowerBound.rounded().formatted())°")
                 .font(.title3)
                 .frame(width: 34, alignment: .center)
             
@@ -37,7 +37,7 @@ public struct TemperatureRangeBar: View {
             .padding(.horizontal, 8)
             
             // MARK: - Hightest label
-            Text("\(innerTemperatureRange.upperBound.rounded().formatted())")
+            Text("\(innerTemperatureRange.upperBound.rounded().formatted())°")
                 .font(.title3)
                 .frame(width: 34, alignment: .center)
         }

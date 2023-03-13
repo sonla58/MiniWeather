@@ -4,7 +4,7 @@ Mini Weather is a simple weather app that uses `WeatherKit` to get the current w
 
 ### Screenshots
 
-|         Dashboard          |           Detail           |
+|         Dashboard          |         Day Detail         |
 | :------------------------: | :------------------------: |
 | ![Screenshot 1](Res/1.png) | ![Screenshot 2](Res/2.png) |
 
